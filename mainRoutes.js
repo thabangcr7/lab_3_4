@@ -10,5 +10,5 @@ res.sendFile(path.join(__dirname, 'views', 'about.html'))
 module.exports = mainRouter
 
 mainRouter.get('/', function (req, res) {
-    res.send('Hello World. I\'m a Node app.')
-    })
+res.send('Hello World. I\'m a Node app.')
+})
